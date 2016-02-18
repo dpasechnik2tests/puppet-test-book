@@ -14,3 +14,9 @@ IF GOT KEYS <%= @servers %>
 <% unless @servers.empty? -%>
 trustedserver <%= @servers.join('XXX') %>
 <% end -%>
+
+YOUR IP <%= @ipaddress %>
+<% if @forif == true %> TEST <% end %>
+<% if @forif == true -%> TEST <% end -%>
+
+<%% @servers %>
