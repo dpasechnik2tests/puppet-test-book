@@ -1,0 +1,16 @@
+<% @servers.each do |server|  -%>
+server <%= server %>
+<% end -%>
+
+<%# WILL NOT PRINTED -%>
+<%# WILL NOT PRINTED -%>
+<%# WILL NOT PRINTED -%>
+<%# WILL NOT PRINTED -%>
+
+<% if @forif == true -%>
+IF GOT KEYS <%= @servers %>
+<% end -%>
+
+<% unless @servers.empty? -%>
+trustedserver <%= @servers.join('XXX') %>
+<% end -%>
